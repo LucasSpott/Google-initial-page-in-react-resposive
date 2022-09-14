@@ -1,0 +1,38 @@
+.contato{
+  justify-content: space-between;
+  display: flex;
+  border-top: 1px solid #303134;
+  border-bottom: 1px solid #303134; 
+}
+.contatoleft, .contatoright{
+ display: inline-flex; 
+ 
+}
+p{
+  padding: 5px;
+  cursor: pointer;
+  color: gray;
+}
+p:hover{
+  text-decoration: underline;
+}
+footer{
+  position: absolute;
+  line-height: 1%;
+  bottom: 0;
+  width: 98%;
+}
+@media only screen and (max-width: 1200px){
+  p{
+    font-size: 12px;
+  }
+  .contato{
+    display: grid; 
+    justify-content: center;
+  }
+  .contatoleft{
+    justify-content: center;
+  }
+
+}
+  

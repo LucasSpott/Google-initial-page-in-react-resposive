@@ -1,0 +1,42 @@
+.main{
+  font-size: 42px;
+  text-align: center;
+}
+h1{
+  padding: 1px;
+}
+input{
+  border-radius: 20px;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.293);
+  background: url('./searchicon.png') no-repeat 20px/3%;
+  width: 30rem;
+  display: inline-flex;
+  height: 2.3rem;
+}
+button{
+  padding: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: #303134;
+  border-radius: 5px;
+  border: 1px #303134 solid;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0 0px 3px rgba(255, 255, 255, 0.378);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
+@media only screen and (max-width: 1700px){
+
+  input{
+    min-width: 25rem;
+    margin-bottom: 1vw;
+  }
+  .div-input{
+    background-size: 4%;
+    
+  }
+}

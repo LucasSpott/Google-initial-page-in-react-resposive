@@ -1,0 +1,29 @@
+a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+a:hover{
+  text-decoration: underline;
+}
+.links{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.profile-image{
+  border-radius: 100%;
+  border: 0;
+  width: 3%;
+  cursor: pointer;
+  margin-top: 5px;
+  height: 2%;
+}
+@media only screen and (max-width: 1200px){
+  .profile-image{
+    width: 6vw;
+    max-width: 2rem;
+    min-width: 2rem;
+    margin-top: 6px;
+  }
+}
